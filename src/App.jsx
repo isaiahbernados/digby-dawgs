@@ -3,7 +3,7 @@ import { Users } from 'lucide-react'
 import './App.css'
 
 function EventTile({ event, isLarge = false }) {
-  const imageSrc = `/assets/${event.image}`
+  const imageSrc = `${import.meta.env.BASE_URL}assets/${event.image}`
 
   return (
     <div className={`event-tile ${isLarge ? 'event-tile-large' : ''}`}>
@@ -28,7 +28,7 @@ function App() {
   const [events, setEvents] = useState([])
 
   useEffect(() => {
-    fetch('/events.json')
+    fetch(`${import.meta.env.BASE_URL}events.json`)
       .then(response => response.json())
       .then(data => setEvents(data.events))
       .catch(error => console.error('Error loading events:', error))
@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-orange-50">
       <header className="header-banner">
-        <img src="/assets/header-banner.png" alt="Digby Dawgs - Noe Valley Neighborhood Events 2025" />
+        <img src={`${import.meta.env.BASE_URL}assets/header-banner.png`} alt="Digby Dawgs - Noe Valley Neighborhood Events 2025" />
       </header>
       
       <main className="comic-grid">
