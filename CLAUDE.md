@@ -57,6 +57,11 @@ Lint code:
 pnpm run lint
 ```
 
+Deploy to GitHub Pages (manual):
+```bash
+pnpm run deploy
+```
+
 ## Dependencies
 
 - **React 18**: Core framework
@@ -65,9 +70,18 @@ pnpm run lint
 - **Lucide React**: Icon library
 - **pnpm**: Package manager
 
+## Deployment
+
+The app is automatically deployed to GitHub Pages when changes are pushed to the main branch via GitHub Actions.
+
+- **Live site**: https://isaiahbernados.github.io/digby-dawgs/
+- **Auto-deployment**: Triggered on push to main branch
+- **Manual deployment**: Use `pnpm run deploy` command
+
 ## Important Notes
 
 - Uses TailwindCSS v4 with `@tailwindcss/postcss` plugin
 - Events data is fetched from `/events.json` in the public directory
 - Images are served from `/assets/` directory in public folder
 - Project uses proper Vite structure with `src/` directory
+- Configured for GitHub Pages with base path `/digby-dawgs/`
