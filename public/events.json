@@ -1,0 +1,75 @@
+{
+  "events": [
+    {
+      "id": "friday_happy_hour",
+      "title": "Standing Friday Happy Hour - Rally!! Anyone can call it!!",
+      "date": "ONGOING UNTIL LABOR DAY",
+      "description": "",
+      "image": "friday-happy-hours.png"
+    },
+    {
+      "id": "juneteenth_hike",
+      "title": "Juneteenth Hike (Sarah/Keri)",
+      "date": "Thursday 6/19",
+      "description": "Short urban hike starting at Noe Café at 5:30 PM then head toward Bernal Heights up to Bernal Peak park. Good views guaranteed. Descend toward south Mission and grab food with a plan to be at the Royal Cuckoo Bar for blues/soul/jazz at 7:30ish. FYI the bar is Bring Your Own Food.",
+      "image": "juneteenth-hike.png"
+    },
+    {
+      "id": "giants_game",
+      "title": "Giants Game 6:45pm at Oracle Park (Belinda & Tim/Isaiah)",
+      "date": "Tuesday 7/29",
+      "description": "Hot dogs, baseball, beer, cheering. Ticket info to come.",
+      "image": "giants-game.webp"
+    },
+    {
+      "id": "community_service",
+      "title": "Community Service Opportunity",
+      "date": "JULY",
+      "description": "Local community service opportunity to be announced!",
+      "image": "community-service.webp"
+    },
+    {
+      "id": "reality_hh_dolores",
+      "title": "Reality HH with the Dawgs @ Dolores 5:30-7:30pm (Sarah)",
+      "date": "Friday 8/15",
+      "description": "Digby Dawgs x Reality meet up. Let's show our Reality friends how to have a good time, Dolo Park edition 😎",
+      "image": "general-happy-hour.png"
+    },
+    {
+      "id": "russian_river_float",
+      "title": "Russian River Float & Potential Stay (Brandon/Belinda)",
+      "date": "Weekend of August 22",
+      "description": "Potential extension: Wine in Healdsburg. More info to come.",
+      "image": "russian-river-weekend.webp"
+    },
+    {
+      "id": "casa_chang_cookout",
+      "title": "Casa Chang Cookout (Tim)",
+      "date": "Friday 9/5",
+      "description": "New house, same dawgs. Come hang!",
+      "image": "casa-chang-cookout.webp"
+    },
+    {
+      "id": "halloween_scavenger_hunt",
+      "title": "Halloween Scavenger Hunt (Isaiah)",
+      "date": "Friday 10/31",
+      "description": "A spooky walkable scavenger hunt!! We will break into teams and have prizes!!",
+      "image": "halloween-scavenger-hunt.webp"
+    },
+    {
+      "id": "board_game_night",
+      "title": "Board Game Night at Bernados'!",
+      "date": "NOVEMBER",
+      "description": "",
+      "image": "board-game-night.webp"
+    },
+    {
+      "id": "christmas_progressive_dinner",
+      "title": "Christmas Party Progressive Dinner",
+      "date": "DECEMBER",
+      "description": "",
+      "image": "christmas-progressive-dinner.webp"
+    }
+  ]
+}
+
